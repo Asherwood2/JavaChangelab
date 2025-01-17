@@ -2,16 +2,25 @@ import java.util.HashMap;
 import java.util.Map;
 
 
+
 public class Purse {
-    int cash;
+    //Map<String, Integer> cash = new HashMap<>();
+    //cash.put("Penny", 1);
 
 
     public Purse(int cash){
-        cash = 0;
+
+        //Map<String, Integer> cash = new HashMap<>();
+       // cash.put("Penny", 1);
     }
 
 
     public void add(int cash){
         
     }
+
+    public double remove(){
+        return 0.0;//holding spot
+    }
+
 }
